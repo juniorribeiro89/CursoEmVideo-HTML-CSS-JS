@@ -1,0 +1,70 @@
+.cabecalho{
+    width: 100%;
+    float: right;
+    padding: 3% 4%;
+}
+
+.logomarca{
+    float: left;
+    position: relative;
+    margin-top: -10;
+    width: 56px;
+    height: 56px;
+    font-size: 0;
+    display: table-cell;
+}
+
+.btn-menu{
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right), #ce2e3c, #da6709 ;
+}
+#Nomedalojaprincipal{
+    background-color: yellow;
+    text-align: center;
+}
+
+.bd{
+    width: 960px;
+    margin-top: -40px;
+}
+
+#menu ul {
+    float: none;
+    text-align: center;
+    background-color:#06f857;
+    list-style:none;
+    height: 100px;
+    width: 960px;
+    margin-top: 50px;
+}
+
+#menu ul li { display: inline;
+    text-align: center;
+    background-color: tomato;
+}
+
+#menu ul li a{
+    margin-top: px;
+    margin-bottom: auto;
+    text-align: center;
+    padding: 10px 10px;
+    display: inline-block;
+    /* visual do link*/
+    background-color:#ec0808;
+    color: rgb(243, 241, 241);
+    text-decoration: none;
+    border-bottom:3px solid #ededed;
+}
+
+#menu ul li a:hover {
+    text-align: center;
+    background-color:#D6D6D6;
+    color: #f00606;
+    border-bottom:3px solid #EA0000;
+}
