@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgba(67, 214, 214, 0.897);
+            color: black;
+            font: normal 18pt Arial;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Iniciando com DOM !</h1>´
+    <p>Flor de Mandacaru <strong>Biju</strong></p>
+    <p>A Sua Loja de Bijuterias</p>
+    <div>
+        Clique Aqui
+    </div>
+    
+    <!--Navegando pela arvore DOM, usando 5 elementos
+    por marca, por ID, por Nome, por Classe, por Seletor-->
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        
+        window.document.write('Esta Escrito assim: ' + p1.innerText)// seleciona apenas o texto.
+        //document.write(p1.innerHTML) mostra inclusive o conteudo de formataçao
+        window.alert(p1.innerHTML) // O alert, mostra uma caixa de texto.
+    
+    // document.getElementsByTagName() // Por Marca
+    // document.getElementsByName()    // Por Nome
+    // document.getElementById()       // Por ID
+    // document.getElementsByClassName()//Por Class
+    // querySelector() ou querySelectorAll()
+    </script>
+</body>
+</html>
